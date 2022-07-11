@@ -57,7 +57,7 @@
         
     }
     button {
-        width: 12%;
+        width: 15%;
         height: 40px;
         background: rgb(236, 166, 36);
         margin-left: 3px;
@@ -153,11 +153,15 @@
         }
         
     }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 380px) {
         body{
             
-            padding: 30px;
+            padding: 10px;
             width: 100%;
+        }
+        .navi-bar li {
+            display: block;
+            width: 50px;
         }
         
     }
